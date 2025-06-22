@@ -1,0 +1,115 @@
+h1{
+    color :rgb(218, 183, 12);
+    background-color: #0d0d0b; 
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5%;
+    margin: 0%;
+}
+h2{
+    color: rgb(18, 17, 22);
+    font-size: medium;
+}
+.h3 
+{
+    color: rgb(18, 17, 22);
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+}
+.h3+p {
+    color: rgb(18, 17, 22);
+    padding: 2px;
+    font-size: small;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+}
+.contacts
+{
+    background-color: rgb(233, 234, 231);
+    color: rgb(18, 17, 22);
+    font-size: medium;
+    padding: 1%;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.menu{
+    background-color: white;
+    color: rgb(57, 15, 185);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1%;
+    text-align: center;
+}
+.body{
+    background-color: hsl(45, 100%, 57%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2%;
+}
+.description
+{
+    background-color: rgb(233, 234, 231);
+    color: rgb(18, 17, 22);
+    font-size: medium;
+    padding: 1%;
+    text-align: center;
+}
+
+.button-container
+{
+    text-align: end;
+    color: rgb(57, 7, 204);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.form label 
+{margin: 10px;
+padding: 10px;}
+
+.menu li {
+
+     margin: 10px;
+    font-size: 18px;
+    color: rgb(18, 17, 22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.body a{
+    background-color: rgb(57, 15, 185);
+}
+
+
+.gallery-item{
+    padding: 10px;
+    margin: 20px;
+  border: 1px solid rgb(57, 15, 185);
+    border-radius: 5px;
+
+    color: rgb(18, 17, 22);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+
+   .square {
+    width: 200px; 
+    height: 200px;
+    margin: 20px; 
+    text-align: center; 
+    border-radius: 10px; 
+    color: white;
+    font-size: 18px;
+    line-height: 200px;
+}
+
+/* Кольори для кожного квадрата */
+#cheese {
+    background-color: #f39c12; 
+}
+
+#yogurt {
+    background-color: #8e44ad; 
+}
+
+#milk {
+    background-color: #3498db
+}
