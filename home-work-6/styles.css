@@ -1,0 +1,80 @@
+:root {
+    --border-color: #020202;
+}
+
+.red {
+    background-color: #f7150b;
+}
+
+.yellow {
+    background-color: #ffd915;
+}
+
+.blue {
+    background-color: #0d0ab6;
+}
+
+.black {
+    background-color: #020202;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+td {
+  border: 10px solid var(--border-color);
+}
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    width: 660px;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    border: 10px solid var(--border-color);
+}
+
+.one {
+    height: 70px;
+}
+
+.one td {
+    border: 10px solid var(--border-color);
+}
+
+.one td:last-child {
+    width: 40px;
+}
+
+.one td:nth-child(2) {
+    width: 200px;
+}
+
+.two {
+    height: 140px;
+}
+
+.three {
+    height: 140px;
+}
+
+.four{
+    height: 100px;
+}
+
+.five {
+    height: 100px;
+}
+
+.six {
+    height: 60px;
+}
+
+.seven {
+    height: 50px;
+}
