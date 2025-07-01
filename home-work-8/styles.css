@@ -1,0 +1,45 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.small {
+  width: 80px;
+  height: 40px;
+  background-color: black;
+}
+
+.big {
+  width: 150px;
+  height: 100px;
+  background-color: red;
+}
+
+.clear {
+  clear: both;
+  margin-bottom: 30px;
+}
+.center-wrap {
+  width: 300px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
