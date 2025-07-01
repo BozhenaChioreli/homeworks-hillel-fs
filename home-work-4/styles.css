@@ -60,6 +60,26 @@ h2{
     text-align: center;
     margin-top: 20px;
 }
+.block-inline-demo {
+    background-color: #f9f9f9;
+    border: 2px solid #dcdcdc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+.block-element {
+    background-color: #d6eaf8;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #85c1e9;
+}
+
+.inline-element {
+    background-color: #fcf3cf;
+    padding: 2px 6px;
+    border: 1px dashed #f1c40f;
+}
 
 .body{
     background-color: hsl(45, 100%, 57%);
