@@ -1,12 +1,32 @@
-h1{
-    color :rgb(218, 183, 12);
-    background-color: #0d0d0b; 
-    font-size: 50px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    padding: 5%;
-    margin: 0%;
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  border-bottom: 2px solid #ddd;
 }
+
+.site-header h1 {
+  margin: 0;
+  font-size: 36px;
+  color: rgb(12, 29, 218);
+  background-color: #f6f6ed;
+  padding: 20px 40px;
+  border-radius: 10px;
+  text-align: center;
+  flex-grow: 1;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  margin-left: 20px;
+}
+
+
+
 h2{
     color: rgb(18, 17, 22);
     font-size: medium;
@@ -38,7 +58,9 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 1%;
     text-align: center;
+    margin-top: 20px;
 }
+
 .body{
     background-color: hsl(45, 100%, 57%);
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -51,12 +73,27 @@ h2{
     padding: 1%;
     text-align: center;
 }
-.button-container{
+
+.button-container {
     text-align: end;
-    color: rgb(57, 7, 204);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  
+    padding: 1%;
 }
+
+.button-container button {
+    background-color: rgb(57, 7, 204);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+    background-color: rgb(35, 5, 150);
+}
+
 .form label {
     margin: 10px;
     padding: 10px;}
@@ -83,37 +120,45 @@ h2{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    }
   .square {
-    width: 200px; 
-    height: 200px;
-    margin: 20px; 
-    text-align: center; 
-    border-radius: 10px; 
-    color: white;
-    font-size: 18px;
-    line-height: 200px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+  text-align: center;
+  line-height: 200px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
 }
 /* Кольори для кожного квадрата */
 #cheese {
     background-color: #f39c12; 
+    display: inline-block;
 }
 
 #yogurt {
     background-color: #8e44ad; 
+    display: inline-block;
 }
 
 #milk {
-    background-color: #3498db
+    background-color: #3498db;    
+    display: inline-block;
 }
 #cookies{
-    background-color: #e74c3c; 
+    background-color: #e74c3c;
+    display: inline-block;
 }
 #chocolate{
     background-color: #6b3304; 
+    display: inline-block;
 }
 #candy
 {
     background-color: #f1c40f; 
+    display: inline-block;
 }
 #chips{
     background-color: #2ecc71; 
+    display: inline-block;
 }
