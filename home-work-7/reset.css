@@ -1,0 +1,30 @@
+/* reset.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.float-box {
+  width: 45%;
+  height: 100px;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  float: left;
+  margin: 10px;
+}
+
+.red {
+  background-color: crimson;
+}
+
+.blue {
+  background-color: royalblue;
+}
+
+.clear-box {
+  clear: both;
+  background-color: lightgray;
+  padding: 20px;
+  margin-top: 20px;
+}

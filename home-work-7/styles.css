@@ -1,0 +1,48 @@
+.block {
+  background-color: #d1e7dd;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #0f5132;
+  font-family: Arial, sans-serif;
+}
+
+.inline {
+  background-color: #cff4fc;
+  padding: 4px;
+  border: 1px solid #055160;
+  font-family: Arial, sans-serif;
+}
+.box {
+  width: 200px;
+  height: 100px;
+  margin: 20px;
+  padding: 10px;
+  background-color: lightblue;
+  border: 2px solid navy;
+  overflow: visible; /* Базове значення */
+}
+
+/* Варіанти overflow */
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.overflow-scroll {
+  overflow: scroll;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+/* Вміст, що перевищує розмір блока */
+.box::after {
+  content: "Цей текст дуже довгий і виходить за межі контейнера. Побачимо, як поводиться overflow.";
+  display: block;
+  width: 300px;
+}
+
