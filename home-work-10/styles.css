@@ -170,3 +170,76 @@ nav a {
 .footer__copy{
     font-size: 13px;
 }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .container {
+    padding: 0 15px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .advantages__list {
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+  }
+
+  button {
+    width: 100%;
+    max-width: 250px;
+  }
+
+  .hero {
+    padding: 40px 0;
+  }
+
+  .about {
+    padding: 60px 0;
+  }
+
+  .video {
+    padding: 60px 0;
+  }
+
+  .advantages {
+    padding: 60px 0;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .container {
+    padding: 0 30px;
+  }
+
+  nav ul {
+    gap: 40px;
+  }
+  .advantages__list {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+}
+@media (min-width: 992px) {
+}
