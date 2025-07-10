@@ -46,14 +46,14 @@ h3 {
 
 /*  Button  */
 button {
-  width: 225px;
-  height: 65px;
+  max-width: 300px;
   font-size: 16px;
   background: transparent;
   border: 1px solid transparent;
   cursor: pointer;
   text-transform: uppercase;
   padding: 16px 24px;
+  
 }
 
 button.primary {
@@ -68,7 +68,6 @@ button.primary:hover {
   font-weight: 500;
   font-size: 14px;
   padding: 20px 0;
-  width: 250px;
   border: none;
   cursor: pointer;
   letter-spacing: 1px;
