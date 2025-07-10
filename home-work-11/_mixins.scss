@@ -1,0 +1,8 @@
+@mixin flex-center($direction: row, $gap: 0) {
+    /*row елементи в ряд для параметра direction*/
+  display: flex;
+  flex-direction: $direction;
+  align-items: center;
+  justify-content: center;
+  gap: $gap;
+}
