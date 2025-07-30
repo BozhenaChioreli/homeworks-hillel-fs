@@ -1,0 +1,47 @@
+svg {
+  width: 400px;
+  height: 300px;
+  background-color: #f8f8f8;
+  display: block;
+  margin: 30px auto;
+}
+
+.shape {
+  stroke-width: 5;
+}
+
+/* Стилі для кожної фігури */
+.square {
+  fill: #f44336;
+  stroke: #880e4f;
+}
+
+.rectangle {
+  fill: #4caf50;
+  stroke: #1b5e20;
+}
+
+.circle {
+  fill: #2196f3;
+  stroke: #0d47a1;
+  animation: colorChange 2s infinite alternate;
+}
+
+.ellipse {
+  fill: #ffeb3b;
+  stroke: #f57f17;
+}
+
+/* Анімація кольору для кола */
+@keyframes colorChange {
+  0% {
+    fill: #2196f3;     /* синя заливка */
+    stroke: #0d47a1;   /* синя рамка */
+  }
+  100% {
+    fill: #e91e63;     /* рожева заливка */
+    stroke: #4a148c;   /* фіолетова рамка */
+  }
+}
+
+
