@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Адаптивна Сітка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Меню 1</a></li>
+        <li><a href="#">Меню 2</a></li>
+      </ul>
+    </nav>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Меню 3</a></li>
+        <li><a href="#">Меню 4</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- MAIN CONTAINER -->
+  <div class="container">
+    
+    <!-- LEFT -->
+    <aside class="left">
+      <div class="slider">
+        <img src="img1.jpg" alt="1">
+        <img src="img2.jpg" alt="2">
+        <img src="img3.jpg" alt="3">
+        <img src="img4.jpg" alt="4">
+      </div>
+    </aside>
+
+    <!-- MAIN -->
+    <main>
+      <section class="accordion">
+        <details>
+          <summary>Пункт 1</summary>
+          <p>Зміст для пункту 1</p>
+        </details>
+        <details>
+          <summary>Пункт 2</summary>
+          <p>Зміст для пункту 2</p>
+        </details>
+      </section>
+
+      <section class="form-section">
+        <form>
+          <label>Ім’я: <input type="text" name="name"></label><br>
+          <label>Прізвище: <input type="text" name="surname"></label><br>
+          <label>Email: <input type="email" name="email"></label><br>
+          <label>Пароль: <input type="password" name="password"></label><br>
+          <label>Повідомлення:<br>
+            <textarea name="message" rows="4"></textarea>
+          </label><br>
+          <button type="submit">Надіслати</button>
+          <button type="reset">Очистити</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- RIGHT -->
+    <aside class="right">
+      <p>Додатковий вміст</p>
+    </aside>
+  </div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2025. Усі права захищено.</p>
+  </footer>
+
+</body>
+</html>
