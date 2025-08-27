@@ -11,7 +11,6 @@ deepInnerFunction повинна виконувати операцію множ�
 
 Результатом виклику outerFunction(arg1)(arg2)(arg3) має бути добуток arg1 * arg2 * arg3.
 */
-
 function outerFunction(arg1) {
   function innerFunction(arg2) {
     function deepInnerFunction(arg3) {
